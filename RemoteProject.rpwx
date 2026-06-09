@@ -42,8 +42,8 @@
 								<_hid type="a">GUID b38c25e8-290d-447b-bb69-00931c3a7611</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">228 0 </_UpLeft>
-						<_DownRight type="a">856 533 </_DownRight>
+						<_UpLeft type="a">272 60 </_UpLeft>
+						<_DownRight type="a">900 593 </_DownRight>
 						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -81,7 +81,7 @@
 				</IRPYRawContainer>
 			</myViewsWithID>
 			<_fullName type="a">C:\ProgramData\IBM\Rhapsody\10.0.1x64\RemoteProject\RemoteProject</_fullName>
-			<_selectedPerspective type="a">Basic</_selectedPerspective>
+			<_selectedPerspective type="a">Advanced</_selectedPerspective>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
