@@ -12,10 +12,10 @@
 			<_id type="a">GUID 2d6a9f1b-d11e-4cdd-9114-6c5748ad212f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Default</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::10:21:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::10:21:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:28:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:28:46</_modifiedTime>
 			<_lastID type="a">12</_lastID>
-			<weakCGTime type="a">6.9.2026::10:21:5</weakCGTime>
+			<weakCGTime type="a">6.9.2026::10:28:46</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_defaultComposite type="s">GUID 70b5f6b5-ce57-472e-ab04-5056cf865385</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -40,9 +40,14 @@
 			<_id type="a">GUID a85b107c-fd3b-4b07-88fa-1715f433343c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Normal_Operation</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::10:17:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::10:17:57</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:23:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:23:0</_modifiedTime>
 			<_lastID type="a">3</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Normal Operation Requirements\par%0D
+\par%0D
+}%0D
+</_body>
 			<AggregatesList type="e">
 				<value>GUID 5d89d7f7-5017-4df0-9d4b-bcc02adfe398</value>
 				<value>GUID 49116ca9-df7b-4e66-9d65-598a55bd0f14</value>
@@ -110,8 +115,12 @@
 			<_id type="a">GUID 4d4553a7-aded-46d9-bc35-c2f9dd41c74a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Authentication</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::9:58:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::9:58:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:23:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:23:30</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Authentication consists of entering 4 digits and comparing them with the password\par%0D
+}%0D
+</_body>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 65b3da8f-d618-4b00-a1cc-283a13b1501e</_id>
@@ -119,28 +128,69 @@
 			<_name type="a">Colision_Detection</_name>
 			<_modifiedTimeWeak type="a">6.9.2026::9:58:32</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.9.2026::9:58:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Collision detection should take place in each period (iteration) of the gate movement and consists in counting by the infrared receiver the pulses sent by the infrared transmitter.\par%0D
+\par%0D
+1.If the number of pulses received and sent differ significantly, send an appropriate signal to the Controller, which should stop the drive\par%0D
+\par%0D
+2.Otherwise, keep moving.\par%0D
+}%0D
+</_body>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 6d22d57e-7fac-45ba-9994-0f043b00b6c1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Firmware</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::9:58:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::9:58:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:23:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:23:55</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Firmware Update\par%0D
+}%0D
+</_body>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID a2ad6ef1-ea45-42b6-b859-ae940206a70d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Movement</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::9:58:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::9:58:47</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:26:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:26:26</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 The transition to the gate movement in the given direction requires the following steps:\par%0D
+\par%0D
+1.Turn on the collision detector\par%0D
+\par%0D
+2.Optional activation of the signaling lamp\par%0D
+\par%0D
+3.Turning on the gate drive\par%0D
+During the movement taking place in a given direction, the following actions should be repeated every fixed period of time:\par%0D
+\par%0D
+1.Send a signal about the last traveled distance to the Controller.\par%0D
+\par%0D
+2.Check the occurrence of a collision and if the collision detector signals it, stop the gate movement\par%0D
+\par%0D
+3.If the signaling option is active, flash the lamp.\par%0D
+}%0D
+</_body>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID c952be47-6be5-41e2-93a7-3f9886cdcdd3</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Recieving_Signal_From_RC</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::10:18:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::10:18:9</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:25:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:25:17</_modifiedTime>
 			<_lastID type="a">2</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 After receiving the signal, the receiver should:\par%0D
+\par%0D
+1.Validate the recorded signal according to the defined requirements.\par%0D
+\par%0D
+2.If the signal meets the requirements, send it to the Controller for interpretation\par%0D
+2.1. If the gate was moving at a given moment, it should be stopped, remembering the direction in which it was moving\par%0D
+2.2. If the gate was at rest, start the movement in the opposite direction to the previous one\par%0D
+\par%0D
+3.If the signal is incorrect, ignore it.\par%0D
+}%0D
+</_body>
 			<AggregatesList type="e">
 				<value>GUID 22a2b941-33c4-4d40-8b65-00bdea4778e5</value>
 				<value>GUID 059d341b-e294-49f0-be69-67536d95363d</value>
@@ -188,30 +238,50 @@
 			<_id type="a">GUID ac60fb35-dcc2-42c7-8674-06ab6d3305b7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Stopping</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::9:59:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::9:59:54</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:28:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:28:46</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Stopping the Gate may result from reaching one of the end positions or the occurence of a collision.\par%0D
+The procedure should, in order:\par%0D
+1. Switch off drive.\par%0D
+2. Turn off the collision detection.\par%0D
+3. Optionally, turn off the signal lamp.\par%0D
+}%0D
+</_body>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 7264c9ec-4108-4f40-92e2-46a77df2771d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Testing</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::10:0:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::10:0:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:24:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:24:22</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Testing involves sending the 'is_ok()' message to the modules and reading the returned value. If the value is not returned within the specified time, the test is considered failed\par%0D
+}%0D
+</_body>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID b63d8fa4-c206-4337-9d02-a3d59ee66e14</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Regulations</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::10:0:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::10:0:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:23:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:23:42</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Regulations...\par%0D
+}%0D
+</_body>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 1cadf5ce-2935-4306-a4a0-bbd55d5a4571</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Top_Level</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::10:15:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::10:15:51</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:22:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:22:46</_modifiedTime>
 			<_lastID type="a">2</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Top Level Requirement: Model a program controlling the entrance gate.\par%0D
+}%0D
+</_body>
 			<AggregatesList type="e">
 				<value>GUID f9a3aaf7-b523-4bf2-afe2-e69b2aca1902</value>
 				<value>GUID 142be403-ab81-41f9-871c-ff5d31e88a39</value>
@@ -259,9 +329,14 @@
 			<_id type="a">GUID afb3fc63-f000-473f-9df6-f1f42d9bcc35</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Servicing</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::10:21:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::10:21:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:22:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:22:21</_modifiedTime>
 			<_lastID type="a">5</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Servicing Requirements\par%0D
+\par%0D
+}%0D
+</_body>
 			<AggregatesList type="e">
 				<value>GUID ef4197c6-a262-49c1-8898-a1203f623861</value>
 				<value>GUID 37fb00e2-4876-41ef-b3e7-dbbc102d9e5d</value>
@@ -369,8 +444,12 @@
 			<_id type="a">GUID f33fc57f-b3da-42d3-8ca3-87e9d1af6f77</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">State_Indication</_name>
-			<_modifiedTimeWeak type="a">6.9.2026::10:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2026::10:14:9</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2026::10:27:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2026::10:27:28</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Optionally, the lamp will be blinking, possibly with different rate in case of opening or closing gate.\par%0D
+}%0D
+</_body>
 		</IRequirement>
 		<IClass type="e">
 			<_id type="a">GUID 70b5f6b5-ce57-472e-ab04-5056cf865385</_id>
